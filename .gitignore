@@ -1,0 +1,39 @@
+# --- Python / 模型 ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# 数据集（不入库）
+model/data/**
+!model/data/.gitkeep
+
+# --- Node / 前端 ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# --- 环境与密钥 ---
+.env
+.env.*
+!.env.example
+
+# --- 编辑器 / 系统 ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
